@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  
+</head>
+<body>
+<header>
+	<nav class="navbar navbar-default">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Akhila App</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="Home.html">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <li class="active"><a href="MusicStore.html">Store</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+</header>	
+
+<div class= "container">
+  <div class="row">
+  	<div class="col-md-8">
+  		<h4>Guitars:</h4>
+      <br>
+      <div class="table-responsive">
+      <table class="table" >
+      <tr>
+        <th><img src="images/g1.jpg"><br>guitar1<br>Price:100$<br><input type="checkbox" name="first" value="100" onclick="first(this.value)"></th>
+        <th><img src="images/g2.jpg"><br>guitar2<br>Price:100$<br><input type="checkbox" name="second" value="100" onclick="second(this.value)"></th>
+        <th><img src="images/g3.jpg"><br>guitar3<br>Price:100$<br><input type="checkbox" name="third" value="100" onclick="third(this.value)"></th>
+      </tr>
+      </table>
+      </div>
+      <br>
+      <br>
+      <br>
+      
+    <h4>voilin :<h4><br>
+    <div class="table-responsive">
+      <table class="table">
+      <tr>
+      <th><img src="images/v1.jpg"><br>voilin1<br>Price:90$<br><input type="checkbox" name="fourth" value="90" onclick="fourth(this.value)"></th>
+        <th><img src="images/v2.jpg"><br>voilin2<br>Price:50$<br><input type="checkbox" name="fifth" value="50" onclick="fifth(this.value)"></th>  
+      </tr>
+      <tr>
+        <td colspan="3">
+          <button class="but btn btn-primary" onclick="sum(x,y,i,j,k)">order now</button>
+          <br><br><br>
+        </td>
+      </tr>
+      </table></div>
+  	</div>
+  	<div class="col-md-4">
+  		<div class="panel panel-primary">
+        <div class="panel-heading">Social Connect</div>
+          <div class="panel-body">
+            <div class="sIcons">
+              <a href="https://github.com/pulls"><img src="images/11.jpg"></a>
+              <a href="https://www.linkedin.com/profile/edit?locale="><img src="images/12.png"></a>
+              <a href="https://bitbucket.org/dashboard/overview"><img src="images/13.png"></a>
+            </div>
+          </div>
+       </div>
+
+       <div class="panel panel-primary">
+        <div class="panel-heading">Address</div>
+          <div class="panel-body">
+            <div class="sIcons">
+                511 West Third <br/>
+                Maryville <br/>
+                MO 64468
+            </div>
+          </div>
+       </div>
+  	</div>
+  </div>
+</div>
+<!-- 
+  <div class="col-3"> Total cost : <br /> -->
+      <!-- <span class="img" id="total" ></span> -->
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>

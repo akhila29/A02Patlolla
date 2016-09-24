@@ -1,0 +1,62 @@
+body{
+	background-image:"images/bb1.jpg";
+	background-repeat: no-repeat;
+	color: white;
+
+}
+
+#one{
+	width: 100%;
+}
+.cut{
+	background-color: purple;
+	color: white;
+	padding: 20px 20px;
+	border: none;
+	margin: 0 0;
+	position: relative;
+    bottom: 50px;
+	float: right;
+}
+iframe{
+	float: right;
+    position: relative;
+    bottom: 200px;
+    right: 53px;
+}
+.p1{
+    border: 0;
+    width: 12%;
+
+
+/*
+	width: 70px;
+	height: 140px;*/
+}
+ul.nav{
+	        display: block;
+            width: 100px;
+
+            overflow: hidden;
+			list-style-type: none;
+			margin: 0;
+			padding:0;
+			background-color: lightblue;
+			float: right;
+			color:purple;
+
+		}
+.but{
+    
+	background-color: purple;
+	color: white;
+	padding: 10px 10px;
+	border: none
+
+}
+#nav{
+	background-color: lightblue;
+	
+	width: 100%;
+	padding-left: 1100px;
+}
